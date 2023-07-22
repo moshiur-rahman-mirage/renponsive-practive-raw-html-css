@@ -62,3 +62,24 @@ nav{
     color:black;
     border-radius: 5px;
 }
+
+/* nav ends here */
+
+/* banner starts here  */
+.banner-container{
+    border:var(--bb);
+    margin: 10px auto 0;
+    max-width: 1200px;
+    min-height: 50px;
+    display: flex;
+
+}
+
+.banner-text{
+    border: var(--bg);
+    width: 50%;
+}
+.banner-img{
+    border: var(--bb);
+    width: 50%;
+}
