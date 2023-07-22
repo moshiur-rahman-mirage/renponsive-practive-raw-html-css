@@ -1,3 +1,20 @@
-@media screen and(max-width:400px) {
-    
+@media screen and (max-width:400px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-items-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+
+    .nav-items-container a.login-btn{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }

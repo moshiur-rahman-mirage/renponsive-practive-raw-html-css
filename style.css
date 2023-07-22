@@ -8,7 +8,8 @@
     --bb:1px solid blue;
 }
 nav{
-    background-color: antiquewhite;
+    background-color: peru;
+    /* border-radius: 5px; */
 }
 .nav-container{
     /* border:var(--bb); */
@@ -47,13 +48,17 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav-items-container a{
     text-decoration: none;
+    color: white;
 }
 
-.login-btn{
+.nav-items-container a.login-btn{
     background-color: aqua;
     padding:10px 20px;
+    color:black;
+    border-radius: 5px;
 }
